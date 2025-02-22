@@ -1,8 +1,6 @@
-# 🚀 Triple Threat Stock Analysis Suite
+# 🚀 Financial Stock Analysis Suite
 
 **AI-Powered Fundamental, Technical & Sentiment Analysis for Stocks/ETFs**
-
-![Analytics Dashboard Concept](https://via.placeholder.com/800x400.png?text=Stock+Analysis+Dashboard+Preview)
 
 ## 📌 Overview
 Advanced analytics platform combining three AI-powered analysis methodologies:
