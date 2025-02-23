@@ -21,46 +21,59 @@ Powered by Flowise AI agents with real-time data integration via Serper API.
 - Actionable investment recommendations
 - Source citation for all data points
 
-## 🛠️ Instructions
-- Get a FREE API Key for GroqChat Platform
-```bash
-https://console.groq.com/settings/limits 
-```
-- Get a FREE API Key for SERPER SEARCH Platform
-```bash
-https://serper.dev/dashboard
-```
+### 1. Acquire API Keys
+- **GroqChat API Key**: Sign up and retrieve your free API key at:  
+  [https://console.groq.com/settings/limits](https://console.groq.com/settings/limits)
+- **SERPER SEARCH API Key**: Get your free API key here:  
+  [https://serper.dev/dashboard](https://serper.dev/dashboard)
 
+### 2. Clone and Set Up the Repository
+Open your terminal and run:
 ```bash
 git clone https://github.com/JAdamHub/M3-Assignment3_AI_Financial_Team.git
 cd M3-Assignment3_AI_Financial_Team
 pip install -r requirements.txt
 ```
-- Install latest version of Flowise (Docker):
+
+### 3. Install and Run Flowise (Docker)
+Download Docker Desktop:
 https://www.docker.com/products/docker-desktop/
 
+Pull and Run Flowise:
 ```bash
 docker pull flowiseai/flowise:latest
 docker run -d -p 3000:3000 flowiseai/flowise:latest
 ```
 
-- Access localhost through URL in a Browser:
-```bash
-http://localhost:3000
-```
+## 4. Configure Flowise
 
-- Import Test Agents.json file in Agentflows under Flowise
-- Save the the Agentflow
-- INCLUDE YOUR FREE FETCHED GROQCHAT API KEY & SERPER DEV API KEY IN AGENT FLOW
-- Edit app.py to include your own version of:
+- **Open your browser and navigate to:**  
+  [http://localhost:3000](http://localhost:3000)
 
+- **Import Agentflow:**  
+  Import the `Test Agents.json` file into the Agentflows section.
+
+- **Insert Your API Keys in app.py file:**  
+  Update the Agentflow configuration with your GroqChat and SERPER DEV API keys.
+
+- **Save the Agentflow:**  
+  Ensure you save your imported Agentflow.
+
+## 5. Update the Application Endpoint
+Edit app.py to point to your custom Agentflow endpoint:
 ```bash
+# Original endpoint:
 http://localhost:3000/api/v1/prediction/9719e978-fd79-4050-8bea-99724ecdb992
-# TO:
+# Replace with your Agentflow ID:
 http://localhost:3000/api/v1/prediction/[INSERT-YOUR-AGENTFLOW_ID]
 ```
 
-Run app.py as streamlit app:
+## 6. Run the Streamlit App:
+Launch your application (app.py) by executing:
 ```bash
 streamlit run app.py
 ```
+
+#### IMPORTANT:
+Note:
+Ensure your API keys and Agentflow IDs are correctly configured before running the app to avoid any issues.
