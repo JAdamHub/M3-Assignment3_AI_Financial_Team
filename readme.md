@@ -1,4 +1,4 @@
-# 🚀 Financial Stock Analysis Suite
+# 🚀 AI Financial Stock Analysis Team (M3 Assignment 3)
 
 **AI-Powered Fundamental, Technical & Sentiment Analysis for Stocks/ETFs**
 
