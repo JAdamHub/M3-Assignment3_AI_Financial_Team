@@ -22,6 +22,15 @@ Powered by Flowise AI agents with real-time data integration via Serper API.
 - Source citation for all data points
 
 ## 🛠️ Instructions
+- Get a FREE API Key for GroqChat Platform
+```bash
+https://console.groq.com/settings/limits 
+```
+- Get a FREE API Key for SERPER SEARCH Platform
+```bash
+https://serper.dev/dashboard
+```
+
 ```bash
 git clone https://github.com/JAdamHub/M3-Assignment3_AI_Financial_Team.git
 cd M3-Assignment3_AI_Financial_Team
@@ -42,6 +51,7 @@ http://localhost:3000
 
 - Import Test Agents.json file in Agentflows under Flowise
 - Save the the Agentflow
+- INCLUDE YOUR FREE FETCHED GROQCHAT API KEY & SERPER DEV API KEY IN AGENT FLOW
 - Edit app.py to include your own version of:
 
 ```bash
