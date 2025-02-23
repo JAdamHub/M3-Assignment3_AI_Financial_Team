@@ -21,8 +21,36 @@ Powered by Flowise AI agents with real-time data integration via Serper API.
 - Actionable investment recommendations
 - Source citation for all data points
 
-## 🛠️ Installation
+## 🛠️ Instructions
 ```bash
-git clone https://github.com/yourusername/stock-analysis-suite.git
-cd stock-analysis-suite
+git clone https://github.com/JAdamHub/M3-Assignment3_AI_Financial_Team.git
+cd M3-Assignment3_AI_Financial_Team
 pip install -r requirements.txt
+```
+- Install latest version of Flowise (Docker):
+https://www.docker.com/products/docker-desktop/
+
+```bash
+docker pull flowiseai/flowise:latest
+docker run -d -p 3000:3000 flowiseai/flowise:latest
+```
+
+- Access localhost through URL in a Browser:
+```bash
+http://localhost:3000
+```
+
+- Import Test Agents.json file in Agentflows under Flowise
+- Save the the Agentflow
+- Edit app.py to include your own version of:
+
+```bash
+http://localhost:3000/api/v1/prediction/9719e978-fd79-4050-8bea-99724ecdb992
+# TO:
+http://localhost:3000/api/v1/prediction/[INSERT-YOUR-AGENTFLOW_ID]
+```
+
+Run app.py as streamlit app:
+```bash
+streamlit run app.py
+```
