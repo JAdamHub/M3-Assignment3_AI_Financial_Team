@@ -12,9 +12,9 @@ st.markdown("## 📌 Overview")
 st.markdown("""
     Advanced analytics platform combining three AI-powered analysis methodologies:
     A supervisor oversees three workers and delegates tasks to the following workers:
-    1. **📊 Fundamental Analysis for {prompt}** - Financial health & valuation metrics  
-    2. **📈 Technical Analysis for {prompt}** - Price patterns & trading signals  
-    3. **🧠 Sentiment Analysis for {prompt}** - Market psychology & news trends  
+    1. **📊 Fundamental Analysis** - Financial health & valuation metrics  
+    2. **📈 Technical Analysis** - Price patterns & trading signals  
+    3. **🧠 Sentiment Analysis** - Market psychology & news trends  
 """)
 
 # Initialize session state for chat messages, chat ID, and agent messages if not already set
